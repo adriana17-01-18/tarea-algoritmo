@@ -1,0 +1,53 @@
+<HTML><HEAD>
+	<TITLE><sin_titulo></TITLE>
+	<STYLE type="text/css">
+		.SSD { color:#FFFFFF; background-color:#000000; }
+		.SS0 { color:#000000; background-color:#FFFFFF; }
+		.SS1 { color:#000000; background-color:#FFFFFF; }
+		.SS2 { font-style: italic; color:#969696; background-color:#FFFFFF; }
+		.SS3 { font-style: italic; color:#0000FF; background-color:#FFFFFF; }
+		.SS4 { color:#8E6B23; background-color:#FFFFFF; }
+		.SS5 { font-weight: bold; color:#000080; background-color:#FFFFFF; }
+		.SS6 { color:#FF0000; background-color:#FFFFFF; }
+		.SS7 { color:#FF0000; background-color:#FFFFFF; }
+		.SS8 { color:#DB70DB; background-color:#FFFFFF; }
+		.SS9 { color:#238E23; background-color:#FFFFFF; }
+		.SS10 { font-weight: bold; color:#000000; background-color:#FFFFFF; }
+		.SS11 { color:#000000; background-color:#FFFFFF; }
+		.SS12 { color:#FF0000; background-color:#F0F0F0; }
+		.SS13 { color:#000000; background-color:#FFFFFF; }
+		.SS14 { color:#DB70DB; background-color:#FFFFFF; }
+		.SS15 { color:#238E23; background-color:#FFFFFF; }
+		.SS16 { color:#000080; background-color:#FFFFFF; }
+		.SS17 { color:#42426F; background-color:#FFFFFF; }
+		.SS18 { color:#FF0000; background-color:#FFFFFF; }
+		.SS19 { color:#000000; background-color:#BFD8D8; }
+		.SS34 { font-weight: bold; color:#FF0000; background-color:#F0F0FF; }
+		.SS35 { font-weight: bold; color:#800000; background-color:#FFFFFF; }
+	</STYLE>
+</HEAD><BODY><PRE>
+<SPAN class="SS2">// Un alumno desea saber cual sera su calificacion final en la materia de</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">// Algortimos. Dicha calificacion se compone de los siguientes porcentajes</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">// 55 MOD  del prodemdio de sus tres calificacion parciales</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">// 30 MOD  de la calificacion de su examen final </SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">// 15 MOD  de la calificacion de su trabajo final.</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS19">sin_titulo</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">parcial1</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">parcial2</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">parcial3</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">promedioP</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">notasParcial</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">reales</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">examen_final</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">notaExamen</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">reales</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">notaTrabajo</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">notaFinalTrabajo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">reales</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">notaFinal</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">real</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite las 3 notas de los parciales"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0">  </SPAN><SPAN class="SS11">parcial1</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">parcial2</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">parcial3</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">promedioP</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">parcial1</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS11">parcial2</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS11">parcial3</SPAN><SPAN class="SS10">)/</SPAN><SPAN class="SS4">3</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">notasParcial</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">promedioP</SPAN><SPAN class="SS10">*</SPAN><SPAN class="SS4">0.55</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la nota del examen final: "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">examen_final</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">notaExamen</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">examen_final</SPAN><SPAN class="SS10">*</SPAN><SPAN class="SS4">0.3</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"Digite la nota del trabajo final: "</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">notaTrabajo</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">notaFinalTrabajo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">notaTrabajo</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">*</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">0.15</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">notaFinal</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">notasParcial</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS11">notaExamen</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS11">notaFinalTrabajo</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">Escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"La calificacion final es: "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">notaFinal</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+</PRE></BODY></HTML>

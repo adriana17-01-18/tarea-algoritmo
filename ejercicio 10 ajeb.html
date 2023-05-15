@@ -1,0 +1,57 @@
+<HTML><HEAD>
+	<TITLE><sin_titulo></TITLE>
+	<STYLE type="text/css">
+		.SSD { color:#FFFFFF; background-color:#000000; }
+		.SS0 { color:#000000; background-color:#FFFFFF; }
+		.SS1 { color:#000000; background-color:#FFFFFF; }
+		.SS2 { font-style: italic; color:#969696; background-color:#FFFFFF; }
+		.SS3 { font-style: italic; color:#0000FF; background-color:#FFFFFF; }
+		.SS4 { color:#8E6B23; background-color:#FFFFFF; }
+		.SS5 { font-weight: bold; color:#000080; background-color:#FFFFFF; }
+		.SS6 { color:#FF0000; background-color:#FFFFFF; }
+		.SS7 { color:#FF0000; background-color:#FFFFFF; }
+		.SS8 { color:#DB70DB; background-color:#FFFFFF; }
+		.SS9 { color:#238E23; background-color:#FFFFFF; }
+		.SS10 { font-weight: bold; color:#000000; background-color:#FFFFFF; }
+		.SS11 { color:#000000; background-color:#FFFFFF; }
+		.SS12 { color:#FF0000; background-color:#F0F0F0; }
+		.SS13 { color:#000000; background-color:#FFFFFF; }
+		.SS14 { color:#DB70DB; background-color:#FFFFFF; }
+		.SS15 { color:#238E23; background-color:#FFFFFF; }
+		.SS16 { color:#000080; background-color:#FFFFFF; }
+		.SS17 { color:#42426F; background-color:#FFFFFF; }
+		.SS18 { color:#FF0000; background-color:#FFFFFF; }
+		.SS19 { color:#000000; background-color:#BFD8D8; }
+		.SS34 { font-weight: bold; color:#FF0000; background-color:#F0F0FF; }
+		.SS35 { font-weight: bold; color:#800000; background-color:#FFFFFF; }
+	</STYLE>
+</HEAD><BODY><PRE>
+<SPAN class="SS2">//un profesor prepara tres cuestionarios para una evaluacion final:</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//a,b,c. se sabe que se tarda 5 minutos en revisar el cuestionario a, </SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">// 8 en revisar el cuestionario b y 6 en el c. la cantidad de examenes de cada </SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">//tipo se entran por teclado. ¿cuantas horas y cuantos minutos se tardar en </SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS2">// revisar todas las evaluaciones?</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">Proceso</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">ejercicio</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidadA</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">cantidadB</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidadC</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">enteros</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">tiempoA</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">tiempoB</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">tiempoC</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">tiempo_total</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">definir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">horas</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">minutos</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Como</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">Entero</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"digite la cantidad de cuestionarios A:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">LEER</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidadA</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">ESCRIBIR</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"LA CANTIDAD DE CUESTIONARios B:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">leer</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidadB</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">ESCRIBIR</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"la cantidad de cuestionarios C:"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">LEER</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidadC</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">// CALCULAR LOS MINUTOS QUE SE TARDARA POR CADA CUESTIONARIO </SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">tiempoA</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidadA</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">*</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">5</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">tiempoB</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidadB</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">*</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">8</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">tiempoC</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">cantidadC</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">*</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">6</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">// calculamos el tiempo total que le toma revisar todos los cuestionarios</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">tiempo_total</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">tiempoA</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS11">tiempoB</SPAN><SPAN class="SS10">+</SPAN><SPAN class="SS11">tiempoC</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS2">// calculamos las horas y minutos </SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">horas</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS16">trunc</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">(</SPAN><SPAN class="SS11">tiempo_total</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS10">/</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">60</SPAN><SPAN class="SS10">);</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS11">minutos</SPAN><SPAN class="SS9">←</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS11">tiempo_total</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS5">mod</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS4">60</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+    </SPAN><SPAN class="SS5">escribir</SPAN><SPAN class="SS0"> </SPAN><SPAN class="SS6">"se tardara "</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">horas</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">"horas y"</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS11">minutos</SPAN><SPAN class="SS10">,</SPAN><SPAN class="SS6">"minutos"</SPAN><SPAN class="SS10">;</SPAN><SPAN class="SS0">
+</SPAN><SPAN class="SS5">FinProceso</SPAN><SPAN class="SS0">
+</SPAN>
+</PRE></BODY></HTML>
