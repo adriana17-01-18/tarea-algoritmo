@@ -1,0 +1,12 @@
+// Declaración de variables
+let altura, base, area;
+
+// Solicitar al usuario que ingrese la base y la altura
+base = prompt("Introduce la base: ");
+altura = prompt("Introduce la altura: ");
+
+// Calcular el área del triángulo
+area = (base * altura) / 2;
+
+// Mostrar el resultado del área
+console.log("El área es: " + area);

@@ -1,0 +1,24 @@
+// Declaración de variables
+let a, b, c;
+
+// Solicitar al usuario que ingrese los números
+a = parseInt(prompt("Introduce el primer número: "));
+b = 
+b
+parseInt(prompt("Introduce el segundo número: "));
+c = 
+c
+parseInt(prompt("Introduce el tercer número: "));
+
+// Verificar cuál es el mayor de los tres números
+if (a < b && a < c) {
+  
+ 
+console.log("El mayor es: " + a);
+} else if (b < a && b < c) {
+  console.log("El mayor es: " + b);
+} else {
+  
+ 
+console.log("El mayor es: " + c);
+}

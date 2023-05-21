@@ -1,1 +1,12 @@
+// Definición de variables
+let edad, peso;
 
+// Mensaje de entrada
+console.log("Escribir los datos (Edad, Peso):");
+
+// Lectura de edad y peso
+edad = prompt("Ingrese la edad:"); // Se asume que se ingresa un valor numérico
+peso = prompt("Ingrese el peso:"); // Se asume que se ingresa un valor numérico
+
+// Mensaje de salida
+console.log("Tu peso es: " + peso + " y tu edad es: " + edad);
